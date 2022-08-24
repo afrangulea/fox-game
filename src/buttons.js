@@ -3,7 +3,7 @@ import { ICONS } from "./constants";
 const toggleHighlited = (icon, show) =>
   document
     .querySelector(`.${ICONS[icon]}-icon`)
-    .classList.toggle("highlited", show);
+    .classList.toggle("highlighted", show);
 
 export default function initButtons(handleUserAction) {
   let selectedIcon = 0;
